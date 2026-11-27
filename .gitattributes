@@ -1,0 +1,5 @@
+# Keep LF line endings everywhere: the toolchain runs in Linux (Docker / WSL),
+# and CRLF breaks shell scripts, patches and Makefiles.
+* text=auto eol=lf
+*.png binary
+*.pdf binary

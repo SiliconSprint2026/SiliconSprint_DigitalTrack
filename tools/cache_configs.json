@@ -1,0 +1,103 @@
+{
+  "_comment": "Allowed cache configurations for the bonus track. Every entry in 'configs' was validated by the organizers (builds, all kernels run). Known-bad in CVA6 v5.3.0: a 1-way (direct-mapped) write-back D-cache (std_nbdcache) produces AXI errors - do not use dcache_ways = 1 with dcache_type = WB. Any other combination must be validated by the organizers before you rely on it.",
+  "allowed_values": {
+    "dcache_kib": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "dcache_ways": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "line_bits": [
+      128,
+      256,
+      512
+    ],
+    "dcache_type": [
+      "WT",
+      "WB"
+    ],
+    "wbuf_depth": [
+      2,
+      4,
+      8
+    ],
+    "icache_kib": [
+      4,
+      8,
+      16
+    ],
+    "icache_ways": [
+      2,
+      4
+    ],
+    "_note": "dcache_ways = 1 only with dcache_type = WT"
+  },
+  "configs": [
+    {
+      "name": "base",
+      "dcache_kib": 32,
+      "dcache_ways": 8,
+      "line_bits": 128,
+      "dcache_type": "WT",
+      "wbuf_depth": 8,
+      "icache_kib": 16,
+      "icache_ways": 4
+    },
+    {
+      "name": "d8w2_wt",
+      "dcache_kib": 8,
+      "dcache_ways": 2,
+      "line_bits": 128,
+      "dcache_type": "WT",
+      "wbuf_depth": 8,
+      "icache_kib": 8,
+      "icache_ways": 4
+    },
+    {
+      "name": "d16w4_wt",
+      "dcache_kib": 16,
+      "dcache_ways": 4,
+      "line_bits": 128,
+      "dcache_type": "WT",
+      "wbuf_depth": 8,
+      "icache_kib": 8,
+      "icache_ways": 4
+    },
+    {
+      "name": "d16w4_wb",
+      "dcache_kib": 16,
+      "dcache_ways": 4,
+      "line_bits": 128,
+      "dcache_type": "WB",
+      "wbuf_depth": 8,
+      "icache_kib": 8,
+      "icache_ways": 4
+    },
+    {
+      "name": "d16w4_l256_wb",
+      "dcache_kib": 16,
+      "dcache_ways": 4,
+      "line_bits": 256,
+      "dcache_type": "WB",
+      "wbuf_depth": 8,
+      "icache_kib": 8,
+      "icache_ways": 4
+    },
+    {
+      "name": "d16w1_wt",
+      "dcache_kib": 16,
+      "dcache_ways": 1,
+      "line_bits": 128,
+      "dcache_type": "WT",
+      "wbuf_depth": 8,
+      "icache_kib": 8,
+      "icache_ways": 4
+    }
+  ]
+}

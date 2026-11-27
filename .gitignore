@@ -1,0 +1,14 @@
+# build outputs
+cva6/work-ver*/
+cva6/core/include/sweep_*_config_pkg.sv
+cva6/trace_*.dasm
+cva6/*.log
+tests/build/
+tests/random/
+spike-ext/build/
+grade_out/
+sweep_out/
+run_out/
+*.fst
+*.vcd
+__pycache__/
