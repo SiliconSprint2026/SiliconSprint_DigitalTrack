@@ -29,7 +29,7 @@ with every vector check failing. That is expected: nothing is implemented yet.
 
 | Read | What |
 | --- | --- |
-| [Problem statement (PDF)](docs/SiliconSprint2026_Track_Problem_Statement.pdf) | The challenge, stages, marking. **The authority** |
+| [Problem statement (PDF)](docs/SiliconSprint 2026 – Digital Design Track Problem Statement.pdf) | The challenge, stages, marking. **The authority** |
 | [docs/1_docker_setup.md](docs/1_docker_setup.md) | Tools, Docker, setup check, troubleshooting |
 | [docs/2_repository_setup.md](docs/2_repository_setup.md) | Your private repo, collaborator access, registration |
 | [docs/3_event_guide.md](docs/3_event_guide.md) | Schedule, Gate 1 / Gate 2, code freeze, submission, demo, rules |
