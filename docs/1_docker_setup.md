@@ -52,21 +52,9 @@ Use **one** of these. All three give you the same image.
 docker pull ghcr.io/siliconsprint2026/cva6-simd:2026
 ```
 
-### Option B: load the `.tar` file (if `docker pull` is slow or blocked)
 
-Download `siliconsprint-cva6-simd-2026.tar` (1.4 GB) from the
-[Releases page](https://github.com/SiliconSprint2026/SiliconSprint_DigitalTrack/releases), then:
 
-```bash
-# optional: verify the download
-sha256sum siliconsprint-cva6-simd-2026.tar                          # Linux / macOS / WSL / Git Bash
-Get-FileHash siliconsprint-cva6-simd-2026.tar -Algorithm SHA256     # Windows PowerShell
-# must be: bdc6d224bf848aaa55074b66c2dce395124a93339640e793de576431d84e99c1
-
-docker load -i siliconsprint-cva6-simd-2026.tar                      # 1-3 minutes
-```
-
-### Option C: build it yourself (about 20 minutes, needs internet)
+### Option B: build it yourself (about 20 minutes, needs internet)
 
 ```bash
 docker build -t siliconsprint/cva6-simd:2026 docker/
