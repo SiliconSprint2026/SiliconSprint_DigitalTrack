@@ -54,8 +54,7 @@ docker build -t siliconsprint/cva6-simd:2026 docker/
 
 ```bash
 docker images | grep cva6-simd
-# ghcr.io/siliconsprint2026/cva6-simd   2026  ...  1.39GB     (option A)
-# siliconsprint/cva6-simd           2026  ...  1.39GB     (options B / C)
+# siliconsprint/cva6-simd           2026  ...  1.39GB 
 ```
 
 `scripts/docker_shell.sh` finds the image under either name.
