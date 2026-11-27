@@ -44,17 +44,7 @@ Check: `docker run --rm hello-world` prints "Hello from Docker!".
 
 ## 3. Get the tool image
 
-Use **one** of these. All three give you the same image.
-
-### Option A: pull from GitHub (recommended, about 500 MB download)
-
-```bash
-docker pull ghcr.io/siliconsprint2026/cva6-simd:2026
-```
-
-
-
-### Option B: build it yourself (about 20 minutes, needs internet)
+### Build it yourself (about 20 minutes, needs internet)
 
 ```bash
 docker build -t siliconsprint/cva6-simd:2026 docker/
