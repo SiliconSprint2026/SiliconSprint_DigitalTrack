@@ -90,13 +90,9 @@ Dry run: `python3 tools/grade.py --gate 2 --seeds 50 --random-ops vadd,vsub,vand
 
 ## Final demonstration (Finale, 28 Nov, 5:00 PM)
 
-About 8 minutes per team over video call (5 minutes demo, 3 minutes questions). Share your screen and show:
+Will be informed later
 
-* your vector instructions running, with the Spike comparison (`scripts/run_test.sh cmp ...`)
-* your architecture (block diagram from `submission/DESIGN.md`) and design decisions
-* your verification results
-
-Every member must be able to answer questions about the implementation.
+Members must be able to answer questions about the implementation.
 
 ## Marking (summary)
 
@@ -119,6 +115,5 @@ Every member must be able to answer questions about the implementation.
 
 ## Help during the event
 
-* Mentors: ask on the [SiliconSprint 2026 WhatsApp channel](https://chat.whatsapp.com/DpBT2pWoCFdBt4d3ggV3fX); mentor names and video-call links are posted there.
+* Mentors: ask on the [SiliconSprint 2026 WhatsApp channel](https://chat.whatsapp.com/DpBT2pWoCFdBt4d3ggV3fX); mentor names and call links are going to be posted there.
 * Clarifications are announced to all teams on the same channel.
-* Mentors help you understand CVA6 and debug setup problems. They do not write your solution.
